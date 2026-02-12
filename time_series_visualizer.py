@@ -19,7 +19,7 @@ def draw_line_plot():
     axis.set_title('Daily freeCodeCamp Forum Page Views 5/2016-12/2019')
     axis.set_xlabel('Date')
     axis.set_ylabel('Page Views')
-    fig.savefig('line_plot.png')
+    fig.savefig("/mnt/Study/FreeCodeCampTasks/Page-View-Time-Series-Visualizer/line_plot.png")
     return fig
 draw_line_plot()    
 
@@ -34,7 +34,7 @@ def draw_bar_plot():
     plt.xlabel('Years')
     plt.ylabel('Average Page Views')
     plt.title('Average Page Views per Month')
-    fig.savefig('bar_plot.png')
+    fig.savefig("/mnt/Study/FreeCodeCampTasks/Page-View-Time-Series-Visualizer/bar_plot.png")
     return fig
 draw_bar_plot()
 
@@ -57,7 +57,8 @@ def draw_box_plot():
     axis[1].set_xlabel('Month')
     axis[1].set_ylabel('Page Views')
     axis[1].set_title('Month-wise Box Plot (Seasonality)')
-    fig.savefig('box_plot.png')
+    fig.savefig("/mnt/Study/FreeCodeCampTasks/Page-View-Time-Series-Visualizer/box_plot.png")
+
     return fig   
     
 draw_box_plot()
